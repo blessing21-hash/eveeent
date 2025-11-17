@@ -1,0 +1,579 @@
+/* .dashboard {
+  max-width: 900px;
+  margin: 2rem auto;
+  padding: 2rem;
+  height: 55vh;
+}
+
+.dashboard h2 {
+  color: var(--primary);
+  margin-bottom: 1.5rem;
+}
+
+.invite-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 1.5rem;
+}
+
+.invite-card {
+  background: white;
+  border-radius: 8px;
+  padding: 1rem;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+.invite-card h3 {
+  margin-bottom: 0.5rem;
+  color: var(--secondary);
+}
+
+.invite-card button {
+  background:#3b55cc ;
+  color: white;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-top: 0.5rem;
+}
+
+.invite-card button:hover {
+  background: rgb(233, 69, 69);
+}
+
+.invite-card button link :hover {
+    background: greenyellow;
+} */
+
+
+
+
+
+
+
+
+
+
+/* 
+.dashboard {
+  padding: 2rem;
+  max-width: 1000px;
+  margin: auto;
+  font-family: "Segoe UI", sans-serif;
+}
+
+.dashboard-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.dashboard-header h2 {
+  font-size: 2rem;
+  color: #333;
+}
+
+.create-btn {
+  padding: 0.6rem 1.2rem;
+  border-radius: 8px;
+  border: none;
+  background: #007bff;
+  color: #fff;
+  font-weight: bold;
+  text-decoration: none;
+  transition: background 0.2s;
+}
+
+.create-btn:hover {
+  background: #0056b3;
+}
+
+
+.stats {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 1.5rem;
+  margin-bottom: 3rem;
+}
+
+.stat-card {
+  background: #fff;
+  padding: 1.5rem;
+  text-align: center;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.stat-card h3 {
+  font-size: 2rem;
+  color: #007bff;
+  margin: 0;
+}
+
+.stat-card p {
+  margin-top: 0.5rem;
+  color: #555;
+}
+
+
+.section-title {
+  margin-bottom: 1rem;
+  font-size: 1.3rem;
+  color: #333;
+}
+
+.empty-msg {
+  color: #777;
+  font-style: italic;
+}
+
+.invite-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.5rem;
+}
+
+.invite-card {
+  background: #fff;
+  padding: 1.5rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  transition: transform 0.2s;
+}
+
+.invite-card:hover {
+  transform: translateY(-5px);
+}
+
+.invite-info h3 {
+  margin: 0 0 0.5rem;
+  color: #007bff;
+}
+
+.invite-info p {
+  margin: 0;
+  color: #555;
+  font-size: 0.9rem;
+}
+
+
+.invite-actions {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.btn-view,
+.btn-delete {
+  padding: 0.5rem 0.8rem;
+  border: none;
+  border-radius: 6px;
+  font-size: 0.9rem;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.btn-view {
+  background: #007bff;
+  color: #fff;
+}
+
+.btn-view:hover {
+  background: #0056b3;
+}
+
+.btn-delete {
+  background: #ff4d4d;
+  color: #fff;
+}
+
+.btn-delete:hover {
+  background: #cc0000;
+} */
+
+
+
+
+
+
+
+.dashboard {
+  padding: 2rem;
+  max-width: 1100px;
+  margin: 0 auto;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Header */
+.dashboard-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.dashboard-header h2 {
+  font-size: 1.8rem;
+  font-weight: 600;
+  color: #333;
+}
+
+.create-btn {
+  padding: 0.6rem 1.2rem;
+  background: #4cafef;
+  color: #fff;
+  font-weight: bold;
+  border-radius: 6px;
+  text-decoration: none;
+  transition: background 0.3s;
+}
+
+.create-btn:hover {
+  background: #2b8cd6;
+}
+
+/* Stats Section */
+.stats {
+  display: flex;
+  gap: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.stat-card {
+  flex: 1;
+  padding: 1.5rem;
+  border-radius: 12px;
+  background: #fff;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+  text-align: center;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.stat-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.12);
+}
+
+.stat-card h3 {
+  font-size: 2rem;
+  margin-bottom: 0.3rem;
+  color: #333;
+}
+
+.stat-card p {
+  font-size: 0.95rem;
+  color: #777;
+}
+
+/* Give different colors for variety */
+.stat-card:nth-child(1) {
+  border-top: 4px solid #4cafef;
+}
+.stat-card:nth-child(2) {
+  border-top: 4px solid #4caf50;
+}
+.stat-card:nth-child(3) {
+  border-top: 4px solid #ff5722;
+}
+.stat-card:nth-child(4) {
+  border-top: 4px solid black;  
+}
+.stat-card:nth-child(5) {
+  border-top: 4px solid rgb(233, 233, 43);
+}
+/* Section Title */
+.section-title {
+  margin-bottom: 1rem;
+  font-size: 1.4rem;
+  font-weight: 600;
+  color: #444;
+}
+
+/* Empty Message */
+.empty-msg {
+  color: #999;
+  font-style: italic;
+  text-align: center;
+}
+
+/* Invite List */
+.invite-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+/* .invite-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 1.2rem;
+  border-radius: 10px;
+  background: #fff;
+  border: 1px solid #eee;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+.invite-info h3 {
+  margin: 0;
+  font-size: 1.2rem;
+  color: #222;
+}
+
+.invite-info p {
+  margin: 0.3rem 0 0;
+  color: #555;
+  font-size: 0.95rem;
+}
+
+.invite-actions {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.invite-actions .btn-view {
+  background: #4caf50;
+  color: #fff;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.invite-actions .btn-view:hover {
+  background: #3e9140;
+}
+
+.invite-actions .btn-delete {
+  background: #f44336;
+  color: #fff;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.invite-actions .btn-delete:hover {
+  background: #d63228;
+}
+
+
+@media (max-width: 768px) {
+  .stats {
+    flex-direction: column;
+  }
+
+  .invite-card {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .invite-actions {
+    margin-top: 0.8rem;
+  }
+}
+
+
+
+.rsvp-stats {
+  margin-top: 0.5rem;
+  display: flex;
+  gap: 1rem;
+  font-size: 0.9rem;
+  color: #555;
+}
+
+.rsvp-stats span {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.2rem;
+  padding: 0.2rem 0.6rem;
+  border-radius: 6px;
+  background: #f0f0f0;
+}
+.rsvp-stats span:nth-child(1) {
+  background: #d4edda;
+  color: #155724;
+}
+.rsvp-stats span:nth-child(2) {
+  background: #f8d7da;
+  color: #721c24;
+}
+.rsvp-stats span:nth-child(3) {
+  background: #fff3cd;
+  color: #856404;
+}
+ */
+
+/* Invite List as Grid */
+.invite-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 1.5rem;
+  margin-top: 1.5rem;
+}
+
+/* Invite Card */
+.invite-card {
+  background: #fff;
+  padding: 1.2rem;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+
+.search-filter {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.search-filter input,
+.search-filter select {
+  padding: 0.5rem 0.8rem;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-size: 0.95rem;
+  outline: none;
+  transition: border 0.2s;
+}
+
+.search-filter input:focus,
+.search-filter select:focus {
+  border-color: #4cafef;
+}
+
+
+
+.dashboard-layout {
+  display: flex;
+}
+
+.dashboard-content {
+  flex: 1;
+  padding: 2rem;
+}
+
+.dashboard-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 2rem;
+}
+
+.sidebar-toggle {
+  background: none;
+  border: none;
+  cursor: pointer;
+  margin-right: 1rem;
+}
+
+.create-btn {
+  background: #4cafef;
+  color: #fff;
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.create-btn:hover {
+  background: #3891e6;
+}
+
+/* Keep the rest of your previous Dashboard CSS for cards, rsvp, stats, etc. */
+
+
+
+
+
+/* Invite card with image and actions */
+.invite-card {
+  display:flex;
+  flex-direction: column;
+  background: #fff;
+  padding: 1rem;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.invite-cover {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 6px;
+  margin-bottom: 0.5rem;
+}
+
+.invite-actions {
+  display: flex;
+  gap: 0.5rem;
+  margin-top: 0.5rem;
+}
+
+.btn-view, .btn-edit, .btn-share, .btn-delete {
+  padding: 0.4rem 0.7rem;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 0.9rem;
+}
+
+.btn-view { background: #4cafef; color: #fff; }
+.btn-edit { background: #f0ad4e; color: #fff; }
+.btn-share { background: #5bc0de; color: #fff; }
+.btn-delete { background: #d9534f; color: #fff; }
+
+/* Recent Activity */
+.recent-activity {
+  margin-top: 2rem;
+  background: #f9f9f9;
+  padding: 1rem;
+  border-radius: 8px;
+}
+
+.recent-activity ul {
+  list-style: none;
+  padding: 0;
+}
+
+.recent-activity li {
+  padding: 0.5rem 0;
+  border-bottom: 1px solid #ddd;
+  font-size: 0.95rem;
+}
+
+/* KPI Cards (already existing, add hover) */
+.stat-card {
+  flex: 1;
+  background: #fff;
+  padding: 1rem;
+  border-radius: 8px;
+  margin-right: 1rem;
+  text-align: center;
+  cursor: pointer;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.stat-card:hover, .stat-card.active {
+  transform: translateY(-3px);
+  box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+}
+
+/* RSVP badges */
+.rsvp-stats span {
+  margin-right: 0.7rem;
+  font-weight: 500;
+}

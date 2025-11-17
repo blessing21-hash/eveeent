@@ -1,0 +1,47 @@
+.avatar-container {
+  position: relative;
+  display: inline-block;
+}
+
+.avatar-img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  cursor: pointer;
+  object-fit: cover;
+  border: 2px solid #007bff;
+}
+
+.avatar-dropdown {
+  position: absolute;
+  right: 0;
+  top: 50px;
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  min-width: 160px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+  padding: 0.8rem;
+  z-index: 100;
+}
+
+.avatar-dropdown p {
+  margin: 0 0 0.5rem;
+  font-weight: bold;
+  color: #333;
+}
+
+.avatar-dropdown button {
+  width: 100%;
+  padding: 0.6rem;
+  border: none;
+  border-radius: 6px;
+  background: #ff4d4d;
+  color: #fff;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.avatar-dropdown button:hover {
+  background: #cc0000;
+}

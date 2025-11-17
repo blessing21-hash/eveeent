@@ -1,0 +1,40 @@
+.invite-editor {
+  max-width: 700px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.invite-editor h2 {
+  margin-bottom: 1.5rem;
+  color: var(--primary);
+}
+
+.invite-editor form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.invite-editor input,
+.invite-editor textarea {
+  padding: 0.8rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 1rem;
+}
+
+.invite-editor button {
+  background:  #3b55cc;
+  color: white;
+  padding: 0.8rem;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.invite-editor button:hover {
+  background: rgb(178, 232, 97);
+}
